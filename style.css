@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0,
+      "XELA" 0,
+      "YELA" 0;
+      background:linear-gradient(180deg,white,blue);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      margin-top: 60px;
+}
+.container{
+    height: 1000px;
+    width: 1500px;
+    position: relative;
+    top: 120px;
+}
+.container:hover{
+     background-image: url('data:image/jpeg;base64,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');
+    background-size:cover;
+
+}
+.sun{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url('sun1.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 50px;
+    right: 110px;
+    box-shadow: 10px 10px 25px orangered;
+    text-align: justify;
+    
+}
+.sun:hover{
+    height: 400px;
+    width: 350px;
+}
+
+.common{
+   height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /*border: 5px solid grey;*/
+    
+}
+.c1{
+    position:absolute;
+    top: 250px;
+    left: 300px;
+    background-image:url('mercury.jpg');
+    background-size: cover;
+    z-index: 1;
+    box-shadow: 5px 5px 10px rgb(196, 195, 193);
+}
+.c1:hover{
+    height: 300px;
+    width: 300px;
+    color: white;
+}
+.c2{
+    position:absolute;
+    top: 300px;
+    left: 420px;
+    background-image:url('venus.jpg');
+    background-size: cover;
+    z-index: 2;
+    box-shadow: 5px 5px 10px rgb(248, 156, 96);
+}
+.c2:hover{
+    height: 300px;
+    width: 300px;
+    color: white;
+}
+.c3{
+    position:absolute;
+    top: 360px;
+    left: 520px;
+    background-image:url('earth.jpg');
+    background-size: cover;
+    z-index: 3;
+    box-shadow: 10px 10px 15px rgb(76, 86, 99) ;
+}
+.c3:hover{
+    height: 300px;
+    width: 300px;
+    color: white;
+}
+.c4{
+    position:absolute;
+    top: 410px;
+    left: 620px;
+    background-image:url('mars-1.jpg');
+    background-size: cover;
+    z-index: 4;
+    box-shadow: 5px 5px 15px rgb(226, 130, 97);
+}
+.c4:hover{
+    height: 300px;
+    width: 300px;
+    color: white;
+}
+.c5{
+    position:absolute;
+    top: 460px;
+    left: 730px;
+    background-image:url('jupiter.jpg');
+    background-size: cover;
+    z-index: 5;
+    box-shadow: 5px 5px 15px rgb(215, 218, 211);
+}
+.c5:hover{
+    height: 300px;
+    width: 300px;
+    color: white;
+}
+.c6{
+    position:absolute;
+    top: 520px;
+    left: 850px;
+    background-image:url('saturn-1.jpg');
+    background-size: cover;
+    z-index: 6;
+    box-shadow: 5px 5px 15px rgb(195, 142, 84);
+}
+.c6:hover{
+    height: 300px;
+    width: 300px;
+    color: white;
+}
+.c7{
+    position:absolute;
+    top: 580px;
+    left: 950px;
+    background-image:url('uranus-1.jpg');
+    background-size: cover;
+    z-index: 7;
+    box-shadow: 5px 5px 15px rgb(152, 220, 238);
+}
+.c7:hover{
+    height: 300px;
+    width: 300px;
+    color: white;
+}
+.c8{
+    position:absolute;
+    top: 650px;
+    left: 1050px;
+    background-image:url('neptune-1.jpg');
+    background-size: cover;
+    z-index: 8;
+    box-shadow: 5px 5px 15px rgb(36, 94, 150);
+}
+.c8:hover{
+    height: 300px;
+    width: 300px;
+    color: white;
+}
+.c9{
+    position:absolute;
+    top: 710px;
+    left: 1170px;
+    background-image:url('pluto.jpg');
+    background-size: cover;
+    z-index: 9;
+    box-shadow: 5px 5px 15px rgb(147, 121, 100);
+}
+.c9:hover{
+    height: 300px;
+    width: 300px;
+    color: white;
+}
+
+
+
